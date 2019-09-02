@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="123.207.243.40">
+    <serverData>
+      <paths name="123.207.243.40">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/py/OneNightStand" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
