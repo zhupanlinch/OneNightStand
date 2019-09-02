@@ -24,6 +24,7 @@ OneNightStand选股器，股票爬虫，每日获取所有个股的北向资金�
 阿里云服务器python2.7, crontab定时运行
 
 0 6 * * * python /py/OneNightStand/spider/codes.py &
+
 0 17 * * * python /py/OneNightStand/spider/short.py &
 
 ### 快速选股sql
