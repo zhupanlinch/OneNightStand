@@ -26,6 +26,19 @@ OneNightStand选股器，股票爬虫，每日获取所有个股的北向资金�
 0 6 * * * python /py/OneNightStand/spider/codes.py &
 0 17 * * * python /py/OneNightStand/spider/short.py &
 
+### 快速选股sql
+
+举个例子：我要筛选深圳的5G+华为概念股，并且按照北向资金加仓天数降序排序，执行如下sql便可。
+
+select concat(name, ' 港资连续加仓', northward_funds_days, '天, 短线：', short, ', 中线: ', `medium`, ' ', northward_funds_detail) 
+from code 
+where create_date > '2019-08-28 00:00:00' 
+and concept like '%5G%'
+and concept like '%深圳%'
+and concept like '%华为%'
+and northward_funds_days != 0
+order by northward_funds_days desc 
+
 ### 技术选型
 
 #### 1.环境
