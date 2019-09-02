@@ -87,10 +87,10 @@ class CodeSpider():
         :return:
         """
         conn = MySQLdb.connect(
-            host='123.207.243.40',
+            host='127.0.0.1',
             port=3306,
             user='root',
-            passwd='jupanshuai2018',
+            passwd='123456',
             db='money',
             charset="utf8"
         )
