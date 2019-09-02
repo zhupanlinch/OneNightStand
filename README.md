@@ -15,8 +15,9 @@ OneNightStand选股器，股票爬虫，每日获取所有个股的北向资金�
 
 具体请参考codes.py
 
-数据快照
+### 数据快照
 
+![数据快照](https://github.com/zhupanlinch/OneNightStand/blob/master/%E6%95%B0%E6%8D%AE%E5%BF%AB%E7%85%A7.png)
 
 ### 部署介绍
 
